@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../styles/signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h1>Sign Up</h1>
+        <form>
+            <input type="email" placeholder="Worker's Mail ID" name="email" required>
+            <input type="text" placeholder="Worker's Name" name="name" required>
+            <input type="number" placeholder="Age" name="age" required>
+            <select name="worker_type" required>
+                <option value="" disabled selected>Select Worker Type</option>
+                <option value="Waste Collection Supervisor">Waste Collection Supervisor</option>
+                <option value="Waste Collection Worker">Waste Collection Worker</option>
+                <option value="Municipal Waste Supervisor">Municipal Waste Supervisor</option>
+            </select>
+            <!-- Area of Worker Field -->
+            <input type="text" placeholder="Area of Worker" name="area" required>
+            <input type="tel" placeholder="Phone Number" name="phone" pattern="[0-9]{10}" required>
+            <input type="password" placeholder="Create Password" name="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p><a href="login.html">Already have an account? Login</a></p>
+    </div>
+</body>
+</html>

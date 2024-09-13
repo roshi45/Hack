@@ -1,0 +1,140 @@
+/* Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FFFDD0; /* Light cream background */
+    color: #8B4513; /* Earth brown for text */
+}
+
+/* Header Styling */
+header {
+    padding: 5px 0;
+    background-color: #8b4513; /* Earth brown header background */
+    color: #FFFFFF; /* White text in header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Warm beige background */
+    padding: 15px;
+    border-radius: 10px;
+    /* Forest green border */
+    width: 160px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    height: 75px;
+    width: 100px;
+}
+
+/* Navbar Styling */
+.navbar {
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    padding: 10px 20px;
+    padding-bottom: 5%;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    /* Forest green hover */
+    color: #FFFFFF; /* White text on hover */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+}
+
+/* Main Section */
+main {
+    padding: 2rem;
+}
+
+.hero-content {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.hero-content h1 {
+    color: #8d5524;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-content h2 {
+    color: #3e2723;
+    font-size: 2rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #5d4037;
+}
+
+.chart-container {
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+canvas {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #8b4513;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

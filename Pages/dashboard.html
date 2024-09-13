@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="../images/logo.jpg" alt="Logo" class="logo-img">
+            </div>
+            
+            <div class="navbar">
+                <a href="../home.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="../home.html #aboutus">About Us</a>
+                <a href="../home.html #contact">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Dashboard</h1>
+                <h2>Number of Bins Collected by "Serviceman"</h2>
+                <div id="dashboard-content">
+                    <div class="chart-container">
+                        <h3>Bins Collected Per Day</h3>
+                        <canvas id="daily-chart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Bins Collected Per Month</h3>
+                        <canvas id="monthly-chart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Bins Collected Per Year</h3>
+                        <canvas id="yearly-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Our Platform. All rights reserved.</p>
+        <section id="contact">
+            <div class="footer-container">
+                <h2>Contact Us</h2>
+                <p><a href="#">support@ourplatform.com</a> | Phone: +1 (234) 567-890</p>
+                <p><a href="#">Any Queries</a></p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="../scripts/dashboard.js"></script>
+</body>
+</html>
